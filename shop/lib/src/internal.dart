@@ -83,5 +83,5 @@ int? validateProductId(String? input, int catalogLength) {
   if (chosenId != null && chosenId >= 1 && chosenId <= catalogLength) {
     return chosenId;
   }
-  return chosenId;
+  return null;
 }
